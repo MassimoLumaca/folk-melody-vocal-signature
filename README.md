@@ -163,7 +163,10 @@ Turkish form names are mapped to their human-readable spellings (`sazsemaisi`
 
 ## Citation
 
-Manuscript in preparation. Citation details to be added on publication.
+Manuscript in preparation; citation details will be added on publication.
+This release (v1.0.0, submission freeze) is archived at
+https://doi.org/10.5281/zenodo.21862291 (all versions:
+https://doi.org/10.5281/zenodo.21862290).
 
 ## License
 
