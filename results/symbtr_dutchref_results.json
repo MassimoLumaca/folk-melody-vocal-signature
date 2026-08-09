@@ -1,0 +1,305 @@
+{
+ "analysis": "Turkish (SymbTr) Dutch-reference standardization sensitivity",
+ "date": "2026-08-08",
+ "status": "sensitivity analysis; reported in SI Materials and Methods 11",
+ "inputs": {
+  "pieces": "results/09_symbtr_piece_scores.csv (raw rep/rng/gap per piece, n=1878)",
+  "dutch_reference": "02_dutch_features.csv, all 18,109 Dutch melodies, ddof=1"
+ },
+ "validation": {
+  "blind_z_reproduction_max_abs_err_ddof1": 0.0
+ },
+ "reference_parameters": {
+  "features": [
+   "prop_repeated_pitch",
+   "pitch_range",
+   "prop_gap_transitions"
+  ],
+  "dutch_mu": [
+   0.19732156089241293,
+   14.327737589044121,
+   0.015803523232771
+  ],
+  "dutch_sd": [
+   0.1424895718731432,
+   4.248961186268422,
+   0.029867329844046987
+  ],
+  "symbtr_mu": [
+   0.15533523141599304,
+   17.473868225932847,
+   0.03293277801910343
+  ],
+  "symbtr_sd": [
+   0.0793308638302633,
+   5.952259304844441,
+   0.029668200934239435
+  ]
+ },
+ "results": {
+  "symbtr_blind": {
+   "augmented": {
+    "auc": 0.8095238095238095,
+    "p_one_sided_exact": 0.016279669762641898,
+    "complete_separation": false,
+    "p_holm": 0.02564499484004128
+   },
+   "core": {
+    "auc": 0.8214285714285714,
+    "p_one_sided_exact": 0.01282249742002064,
+    "complete_separation": false,
+    "p_holm": 0.02564499484004128
+   },
+   "continuity": {
+    "auc": 0.8452380952380952,
+    "p_one_sided_exact": 0.007688338493292053,
+    "complete_separation": false,
+    "p_holm": 0.02306501547987616
+   },
+   "piece_level": {
+    "augmented": 0.8169744273113776,
+    "core": 0.8550955009835649,
+    "continuity": 0.5058093787676883
+   },
+   "form_ranking_by_aug": [
+    [
+     "nefes",
+     "vocal",
+     2.19
+    ],
+    [
+     "turku",
+     "vocal",
+     1.422
+    ],
+    [
+     "oyunhavasi",
+     "instrumental",
+     1.127
+    ],
+    [
+     "murabba",
+     "vocal",
+     0.823
+    ],
+    [
+     "nakis",
+     "vocal",
+     0.598
+    ],
+    [
+     "ilahi",
+     "vocal",
+     0.592
+    ],
+    [
+     "kar",
+     "vocal",
+     0.584
+    ],
+    [
+     "beste",
+     "vocal",
+     0.494
+    ],
+    [
+     "yuruksemai",
+     "vocal",
+     0.312
+    ],
+    [
+     "rumeliturkusu",
+     "vocal",
+     0.281
+    ],
+    [
+     "fantezi",
+     "vocal",
+     0.227
+    ],
+    [
+     "selam",
+     "vocal",
+     0.204
+    ],
+    [
+     "sarki",
+     "vocal",
+     -0.179
+    ],
+    [
+     "agirsemai",
+     "vocal",
+     -0.242
+    ],
+    [
+     "sirto",
+     "instrumental",
+     -1.189
+    ],
+    [
+     "sazsemaisi",
+     "instrumental",
+     -1.565
+    ],
+    [
+     "pesrev",
+     "instrumental",
+     -1.606
+    ],
+    [
+     "longa",
+     "instrumental",
+     -1.839
+    ],
+    [
+     "kanto",
+     "vocal",
+     -2.272
+    ],
+    [
+     "sazeseri",
+     "instrumental",
+     -2.524
+    ]
+   ]
+  },
+  "dutch_ref": {
+   "augmented": {
+    "auc": 0.7976190476190477,
+    "p_one_sided_exact": 0.02038183694530444,
+    "complete_separation": false,
+    "p_holm": 0.04076367389060888
+   },
+   "core": {
+    "auc": 0.7857142857142857,
+    "p_one_sided_exact": 0.025335397316821464,
+    "complete_separation": false,
+    "p_holm": 0.04076367389060888
+   },
+   "continuity": {
+    "auc": 0.8452380952380952,
+    "p_one_sided_exact": 0.007688338493292053,
+    "complete_separation": false,
+    "p_holm": 0.02306501547987616
+   },
+   "piece_level": {
+    "augmented": 0.8015356304334031,
+    "core": 0.8332730503204518,
+    "continuity": 0.5058093787676883
+   },
+   "form_ranking_by_aug": [
+    [
+     "nefes",
+     "vocal",
+     1.482
+    ],
+    [
+     "turku",
+     "vocal",
+     0.78
+    ],
+    [
+     "oyunhavasi",
+     "instrumental",
+     0.514
+    ],
+    [
+     "murabba",
+     "vocal",
+     0.454
+    ],
+    [
+     "ilahi",
+     "vocal",
+     0.318
+    ],
+    [
+     "nakis",
+     "vocal",
+     -0.003
+    ],
+    [
+     "beste",
+     "vocal",
+     -0.065
+    ],
+    [
+     "fantezi",
+     "vocal",
+     -0.163
+    ],
+    [
+     "selam",
+     "vocal",
+     -0.251
+    ],
+    [
+     "yuruksemai",
+     "vocal",
+     -0.255
+    ],
+    [
+     "kar",
+     "vocal",
+     -0.277
+    ],
+    [
+     "rumeliturkusu",
+     "vocal",
+     -0.315
+    ],
+    [
+     "sarki",
+     "vocal",
+     -0.65
+    ],
+    [
+     "agirsemai",
+     "vocal",
+     -0.652
+    ],
+    [
+     "sirto",
+     "instrumental",
+     -1.454
+    ],
+    [
+     "sazsemaisi",
+     "instrumental",
+     -1.893
+    ],
+    [
+     "pesrev",
+     "instrumental",
+     -1.945
+    ],
+    [
+     "longa",
+     "instrumental",
+     -2.235
+    ],
+    [
+     "sazeseri",
+     "instrumental",
+     -2.95
+    ],
+    [
+     "kanto",
+     "vocal",
+     -3.584
+    ]
+   ]
+  },
+  "aranagme_dutch_ref": {
+   "n": 73,
+   "mean_aug": -0.22358977784426823,
+   "mean_aug_vocal": -0.28842006674921616,
+   "mean_aug_instr": -1.8377331470922547
+  },
+  "rank_agreement_augmented": {
+   "spearman": 0.9669172932330825,
+   "kendall": 0.8947368421052632
+  }
+ }
+}

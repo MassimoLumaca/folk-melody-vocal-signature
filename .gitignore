@@ -1,0 +1,34 @@
+# Corpora are not redistributed; see data/README.md
+data/*.gz
+data/*.csv
+data/mtc_metadata/
+data/**/*.mat
+
+# Large regenerable feature tables
+results/02_dutch_features.csv
+results/02_finnish_features.csv
+
+# Generated figures
+paper_figures/
+notebooks/paper_figures/
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+venv/
+
+# Local working backups - not part of the released record
+*.bak_*
+**/_backups/
+
+# Manuscript files - not part of the public code/data record
+paper/
+
+# Finnish metadata table and SymbTr note files (corpora, not redistributed)
+data/*.txt
+data/symbtr_txt/
+
+# Local deletion staging
+_to_delete/

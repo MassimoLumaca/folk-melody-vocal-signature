@@ -1,0 +1,87 @@
+{
+  "name": "core_melodic_score",
+  "features": [
+    {
+      "feature": "prop_repeated_pitch",
+      "direction": "positive",
+      "unit_weight": 1.0,
+      "dutch_fit_coef_std_scale_unrestricted_year_adjusted": 0.2756
+    },
+    {
+      "feature": "pitch_range",
+      "direction": "negative",
+      "unit_weight": -1.0,
+      "dutch_fit_coef_std_scale_unrestricted_year_adjusted": -0.1965
+    }
+  ],
+  "score_definition": "score = sum_i unit_weight_i * z(feature_i); z-scoring parameters must be taken from the corpus the score is applied to (or from a stated reference sample), never from outcome-labelled test data",
+  "derivation": "Intercept-free mirrored within-family pairwise design, Dutch mixed tune families (MTC-FS-INST 2.0), era-window sensitivity |dyear| <= 15/25/50/75/100/unrestricted, year as nuisance adjustment only; see README.md (Design notes) in this repository",
+  "note": "Contains only features with window-stable coefficient direction (R2); gap rate excluded from the core score by rule R4 as window-dependent. The names core and augmented denote composition, not rank; neither is assigned sole-primary status.",
+  "decision_log": {
+    "R2_direction_stability": {
+      "prop_repeated_pitch": {
+        "stable": true,
+        "signs_by_window": [
+          "zero",
+          "positive",
+          "positive",
+          "positive",
+          "positive",
+          "positive"
+        ]
+      },
+      "pitch_range": {
+        "stable": true,
+        "signs_by_window": [
+          "negative",
+          "negative",
+          "negative",
+          "negative",
+          "negative",
+          "negative"
+        ]
+      },
+      "max_abs_interval": {
+        "stable": true,
+        "signs_by_window": [
+          "negative",
+          "negative",
+          "negative",
+          "negative",
+          "negative",
+          "negative"
+        ]
+      },
+      "prop_gap_transitions": {
+        "stable": true,
+        "signs_by_window": [
+          "positive",
+          "positive",
+          "positive",
+          "zero",
+          "zero",
+          "positive"
+        ]
+      }
+    },
+    "R3_extended_minus_minimal_dAUC_by_window": {
+      "le15": -0.0031,
+      "le25": -0.0089,
+      "le50": -0.0104,
+      "le75": 0.0046,
+      "le100": 0.0044,
+      "unrestricted": -0.0009
+    },
+    "R3_pass": false,
+    "R1_minimal_within_margin_of_extended_unrestricted": {
+      "d_auc": 0.0009,
+      "ci": [
+        -0.0171,
+        0.0188
+      ],
+      "ok": true
+    },
+    "max_abs_interval_retained": false,
+    "gap_rate_excluded_from_primary": "prespecified (R4)"
+  }
+}

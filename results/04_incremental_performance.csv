@@ -1,0 +1,13 @@
+model,reference,metric,estimate,ci95_lo_boot_families,ci95_hi_boot_families
+year_plus_continuity,year_only,d_pairwise_accuracy,0.0497,0.0104,0.0878
+year_plus_continuity,year_only,d_roc_auc,0.0403,-0.0023,0.0826
+year_plus_continuity,year_only,d_balanced_accuracy,0.0497,0.0104,0.0878
+year_plus_continuity,year_only,d_log_loss,-0.0197,-0.0430,0.0045
+year_plus_pitch_movement,year_only,d_pairwise_accuracy,0.1062,0.0554,0.1536
+year_plus_pitch_movement,year_only,d_roc_auc,0.0999,0.0513,0.1501
+year_plus_pitch_movement,year_only,d_balanced_accuracy,0.1062,0.0554,0.1536
+year_plus_pitch_movement,year_only,d_log_loss,-0.0370,-0.0732,0.0056
+year_plus_combined,year_only,d_pairwise_accuracy,0.1201,0.0693,0.1709
+year_plus_combined,year_only,d_roc_auc,0.1171,0.0630,0.1720
+year_plus_combined,year_only,d_balanced_accuracy,0.1201,0.0693,0.1709
+year_plus_combined,year_only,d_log_loss,-0.0465,-0.0817,-0.0061

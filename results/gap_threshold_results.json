@@ -1,0 +1,76 @@
+{
+  "thresholds_beats": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "dutch_gap05_matches_published_max_abs_diff": 0.0,
+  "dutch": {
+    "0.25": {
+      "n_families": 433,
+      "combined_model_oof_auc": 0.7193328675282283,
+      "year_adjusted_gap_coefficient": 0.4855943947821648,
+      "year_adjusted_year_coefficient": 0.4763493076091023
+    },
+    "0.5": {
+      "n_families": 433,
+      "combined_model_oof_auc": 0.723877134125202,
+      "year_adjusted_gap_coefficient": 0.4836694369394896,
+      "year_adjusted_year_coefficient": 0.4722102445455309
+    },
+    "1.0": {
+      "n_families": 433,
+      "combined_model_oof_auc": 0.729437460331006,
+      "year_adjusted_gap_coefficient": 0.5664879092529156,
+      "year_adjusted_year_coefficient": 0.5357886562969286
+    }
+  },
+  "finnish_gap05_matches_published_max_abs_diff": 4.7368421052240706e-07,
+  "finnish": {
+    "0.25": {
+      "continuity_alone": {
+        "collection_auc": 0.8095238095238095,
+        "complete_separation": false,
+        "min_margin_sd": -0.22483161919367728,
+        "p_one_sided_exact": 0.09166666666666666
+      },
+      "augmented": {
+        "collection_auc": 0.9523809523809523,
+        "complete_separation": false,
+        "min_margin_sd": -0.036924640639981535,
+        "p_one_sided_exact": 0.016666666666666666
+      },
+      "pct_melodies_with_zero_gaps": 0.584813653779171
+    },
+    "0.5": {
+      "continuity_alone": {
+        "collection_auc": 0.8571428571428571,
+        "complete_separation": false,
+        "min_margin_sd": -0.19079411819218606,
+        "p_one_sided_exact": 0.058333333333333334
+      },
+      "augmented": {
+        "collection_auc": 1.0,
+        "complete_separation": true,
+        "min_margin_sd": 0.023226532883417347,
+        "p_one_sided_exact": 0.008333333333333333
+      },
+      "pct_melodies_with_zero_gaps": 0.588064553581795
+    },
+    "1.0": {
+      "continuity_alone": {
+        "collection_auc": 0.9047619047619048,
+        "complete_separation": false,
+        "min_margin_sd": -0.08292422448968739,
+        "p_one_sided_exact": 0.03333333333333333
+      },
+      "augmented": {
+        "collection_auc": 1.0,
+        "complete_separation": true,
+        "min_margin_sd": 0.16051324763578084,
+        "p_one_sided_exact": 0.008333333333333333
+      },
+      "pct_melodies_with_zero_gaps": 0.6701497735980495
+    }
+  }
+}

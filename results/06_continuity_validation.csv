@@ -1,0 +1,6 @@
+scheme_or_block,score_or_feature,prespecified_direction,collection_auc,rank_biserial,p_one_sided_exact,p_two_sided_exact,p_holm_adjusted_3_features,melody_auc_descriptive,loco_auc_min,loco_auc_max
+finnish_blind,continuity_score,vocal_higher,0.8571,0.7143,0.05833,0.11667,,0.6325,0.7857,0.9444
+dutch_ref,continuity_score,vocal_higher,0.8571,0.7143,0.05833,0.11667,,0.6325,0.7857,0.9444
+raw_features,prop_repeated_pitch,vocal_higher,0.8571,0.7143,0.05833,0.11667,0.17500,,,
+raw_features,pitch_range,vocal_lower,0.3810,-0.2381,0.33333,0.66667,0.33333,,,
+raw_features,prop_gap_transitions,vocal_higher,0.8571,0.7143,0.05833,0.11667,0.17500,,,

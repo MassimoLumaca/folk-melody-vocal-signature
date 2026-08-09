@@ -1,0 +1,9 @@
+# Versions are intentionally unpinned pending confirmation of the interpreter
+# used to generate the committed tables in results/. See the Environment
+# section of README.md — pin these before relying on byte-level reproduction.
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+jupyter

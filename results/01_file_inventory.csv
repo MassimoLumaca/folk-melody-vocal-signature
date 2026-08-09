@@ -1,0 +1,10 @@
+file,corpus,format,role,n_records,n_notes,size_bytes,in_scope,notes
+MTC-FS-INST-2.0_sequences-1.1.jsonl.gz,Dutch (MTC),gzip JSON Lines (one melody per line),main Dutch corpus: metadata + per-note feature lists,18109,1296072,61277994,yes,"53 note-level features (instrumental) / 61 (vocal, adds 8 lyrics features); 234 vocal records lack the lyrics features; ids unique (NLB*)"
+MTC-ANN-2.0.1_sequences-1.1.jsonl.gz,Dutch (MTC),gzip JSON Lines,annotated Dutch subset (all vocal),360,17304,916833,yes,all 360 ids also present in MTC-FS-INST; 61 note-level features incl. lyrics
+essen_sequences-1.1.jsonl.gz,Essen (multi-national),gzip JSON Lines,additional corpus in same format,8469,444719,19389043,no,"not Dutch or Finnish (mostly German + Chinese subcollections via 'origin' field); tunefamily empty and year=-1 throughout"
+finfolktunes_data_corrected.txt,Finnish (finfolktunes),tab-separated text; Latin-1 encoding; 11 columns,melody-level metadata,8613,,623369,yes,"header has duplicate column name 'key' (row index col 1 and key signature col 9); 96 KT1 rows have 10 fields (trailing 'location' missing)"
+finfolktunes.mat,Finnish (finfolktunes),"MATLAB 5.0 MAT-file; cell array nm (1x8613) of Nx7 double matrices",note-level data (MIDI-Toolbox nmat layout),8613,474164,27035688,yes,"columns consistent with [onset_beats, duration_beats, channel, midipitch, velocity, onset_sec, duration_sec]; entry count matches metadata rows 1:1"
+finfolktunes_data.zip,Finnish (finfolktunes),zip archive,archive copy of finfolktunes_data_corrected.txt,1,,114463,duplicate,identical filename inside; redundant with the extracted .txt
+finfolktunes_matlab.zip,Finnish (finfolktunes),zip archive,archive copy of finfolktunes.mat,1,,2037430,duplicate,identical filename inside; redundant with the extracted .mat
+YTMM/ (235 .wav + YTMM_details.csv),YTMM (audio),"WAV audio, 5-s excerpts, ~480 KB each + CSV",audio stimulus set,236,,~112900000,no,unrelated to the two symbolic corpora inspected here
+.DS_Store,-,macOS Finder metadata,system file,,,10244,no,ignore

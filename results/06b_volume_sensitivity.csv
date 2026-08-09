@@ -1,0 +1,5 @@
+scheme,aggregation,n_units,n_vocal,n_instrumental,complete_separation,min_boundary_margin_sd,collection_auc,p_one_sided_exact,n_permutations,unit_values
+finnish_blind,merged_volume_V,9,7,2,yes,1.2435,1.0000,0.02778,36,LS1=0.392;LS2=0.214;LS3=0.134;LS4=0.325;RS1=0.305;RS2=0.646;HS1=-0.106;KT1=-2.260;V_merged=-1.349
+finnish_blind,five_series,5,3,2,yes,1.2435,1.0000,0.10000,10,I_Hengellisia=-0.106;II_Laulusavelmia=0.258;III_Kansantansseja=-2.260;IV_Runosavelmia=0.465;V_Kantele_ja_jouhikko=-1.349
+dutch_ref,merged_volume_V,9,7,2,yes,1.2018,1.0000,0.02778,36,LS1=1.344;LS2=1.182;LS3=1.090;LS4=1.276;RS1=1.096;RS2=1.470;HS1=0.815;KT1=-1.178;V_merged=-0.386
+dutch_ref,five_series,5,3,2,yes,1.2018,1.0000,0.10000,10,I_Hengellisia=0.815;II_Laulusavelmia=1.214;III_Kansantansseja=-1.178;IV_Runosavelmia=1.272;V_Kantele_ja_jouhikko=-0.386

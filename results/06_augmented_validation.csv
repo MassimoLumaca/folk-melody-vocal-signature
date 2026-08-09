@@ -1,0 +1,3 @@
+scheme,score,prespecified_direction,collection_auc,rank_biserial,p_one_sided_exact,p_two_sided_exact,melody_auc_descriptive,all_vocal_above_all_instrumental,loco_auc_min,loco_auc_max,d_auc_augmented_minus_core,d_rank_biserial_augmented_minus_core,p_one_sided_exact_auc_comparison
+finnish_blind,augmented,vocal_higher,1.0000,1.0000,0.00833,0.01667,0.8541,yes,1.0000,1.0000,0.2381,0.4762,0.08333
+dutch_ref,augmented,vocal_higher,1.0000,1.0000,0.00833,0.01667,0.8556,yes,1.0000,1.0000,0.2381,0.4762,0.09167
